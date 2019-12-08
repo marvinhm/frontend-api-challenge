@@ -6,5 +6,14 @@
 
     cy.get('h1')
       .should('contain', 'Welcome to Chitter...');
-  })
-});
+    });
+  });
+
+  describe("Sign up prompt", () => {
+    it("On hitting signup users should find a signup header", () => {
+  
+      cy.get("[data-test='signupButton']")
+        .click()
+        .should('contain', 'Signup');
+    });
+  });

@@ -16,7 +16,7 @@ class App extends React.Component{
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/signup">Signup</Link>
+                <Link data-test="signupButton" to="/signup">Signup</Link>
               </li>
               <li>
                 <Link to="/users">Users</Link>

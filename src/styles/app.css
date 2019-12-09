@@ -1,0 +1,14 @@
+.navStyle {
+  position: relative;
+  display: inline-flex;
+}
+
+li {
+  width: 5rem;
+  list-style-type: none;
+}
+
+.navStyle {
+  border: 2px solid black;
+  margin: 2rem;
+}

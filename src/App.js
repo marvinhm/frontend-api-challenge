@@ -1,5 +1,6 @@
 import React from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './styles/app.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from './components/Home';
 import Signup from './components/Signup';
@@ -11,7 +12,7 @@ class App extends React.Component{
       <Router>
         <div>
           <nav>
-            <ul>
+            <ul className="navStyle">
               <li>
                 <Link to="/">Home</Link>
               </li>
